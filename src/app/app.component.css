@@ -1,0 +1,50 @@
+.bg1{
+    margin:auto;
+    background-color: rgb(216, 216, 216);
+    padding: 20px 5px 10px 5px;
+}
+.headerImg {
+    float: left;
+}  
+#cart{
+    float:right;
+    margin-left: 500px;
+}
+ .loginField {
+    margin-left: 50px;   
+    margin-right: 50px;
+}
+.help{
+    margin-left:100px;
+}
+.findInput{
+    width:500px;
+    margin-left:50px;
+}
+.formDiamond{
+    margin-left:50px;
+    width: 200px;
+}
+#shipping{
+    float:right;
+    margin-right: 70px;
+}
+#loginlink{
+    text-decoration-line: none;
+    border:none;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+}
+#signlink{
+    text-decoration-line: none;
+    border:none;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+}
+
+
+
+
+

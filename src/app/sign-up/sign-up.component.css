@@ -1,0 +1,73 @@
+.signUp{
+    float:right;
+    position: absolute;
+    top:-15px;
+    margin-top: 100px;
+    margin-left:900px;
+    background-color: rgb(216, 216, 216);
+    padding:15px;
+    z-index: 5;
+    padding:20px 40px;
+    border-radius: 20px;
+
+}
+.email{
+    margin:10px 0 5px 5px;
+    padding:10px ;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+   
+}
+.password{
+    margin:20px 0 5px 5px;
+    padding:10px ;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+}
+.conPassword{
+    margin:20px 0 5px 5px;
+    padding:10px ;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+}
+.mobilenum{
+    margin:20px 20px 5px 5px;
+    padding:10px ;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+}
+#para{
+    margin:10px 0 1px 80px;
+    display: block;
+    font-size:x-small;
+}
+#login{
+    display: block;
+    font-size:x-small;
+    margin:1px 0 5px 120px;
+}
+#submit{
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    width:300px;
+    margin-top: 20px;
+    margin-left:5px;
+    padding: 10px;
+    color:aliceblue;
+    background-color: rgb(252, 135, 99);
+}
+#submit:hover{
+    color: blue;
+}
+#submit:active{
+    color:greenyellow;
+}

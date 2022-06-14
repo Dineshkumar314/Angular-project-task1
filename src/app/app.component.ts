@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sampleProject';
+  title = 'Angular Project';
+  
+ 
+  relativePathSRC = "../assets/Angular cart.jpeg";
+  widthSRC = 115;
+  heightSRC = 50;
 }
+

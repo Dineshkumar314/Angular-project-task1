@@ -1,0 +1,15 @@
+
+<div class="loginForm">
+<form [formGroup]="formGroup">
+
+    <input type="email" class="inputEmail"  placeholder="Your Email Address" formControlName="e_mail"><br>  
+    <input type="password" class="password" placeholder="Enter Password" formControlName="password"><br>
+    <button id="submit" (click)="submitForm()" [disabled]="!formGroup.valid">Login</button> 
+    <p id="para">Forget Password</p>
+
+</form>
+</div>
+
+
+
+    

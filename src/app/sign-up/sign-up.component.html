@@ -1,0 +1,18 @@
+
+ <div class="signUp">
+ <form [formGroup] ="formGroup">
+    <input type="email" class="email" placeholder="Your Email Address" formControlName=" e_mail">
+    <br>  
+    <input type="password" class="password" placeholder="Choose Password" formControlName="password">
+    <br>
+    <input type="password" class="conPassword"  placeholder="Confirm Password" 
+    formControlName="confirmpassword">
+    <br>
+    <input type="number" class="mobilenum" placeholder=
+    "Mobile Number(For order status updates" formControlName="number">
+     <br>
+    <button id="submit" (click)="submitForm()" [disabled]="!formGroup.valid">SignUp</button>
+    <p id="para">Already have an account?</p>  <p id="login">Login</p>
+</form>
+</div>  
+

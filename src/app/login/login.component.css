@@ -1,0 +1,54 @@
+
+.loginForm{
+    float:right;
+    position: absolute;
+    top:-15px;
+    margin-top: 80px;
+    margin-left:1000px;
+    background-color: rgb(216, 216, 216);
+    padding:15px;
+    z-index: 5;
+    border-radius: 20px;
+
+}
+.email{
+    width:200px;
+}  
+
+.inputEmail{
+    
+    margin:20px 0 5px 5px;
+    padding:10px ;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+   
+}
+.password{
+    margin:20px 0 5px 5px;
+    padding:10px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+#submit{
+    outline:none;
+    border:none;
+    border-radius: 5px;
+    width:190px;
+    margin:20px 0 5px 5px;
+    padding:10px;
+    color:aliceblue;
+    background-color: rgb(252, 135, 99);
+}
+#submit:hover{
+    color: blue;
+}
+#submit:active{
+    color:greenyellow;
+}
+#para{
+    margin-top:10px;
+    margin-left:120px;
+    font-size: smaller;
+}
